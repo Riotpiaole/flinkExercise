@@ -1,0 +1,18 @@
+body{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.navbar {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.navbar a {
+  margin: 0.5em;
+}
+
+.googleButton {
+  background-color: red;
+  color: white;
+  font-size: 22px;
+}

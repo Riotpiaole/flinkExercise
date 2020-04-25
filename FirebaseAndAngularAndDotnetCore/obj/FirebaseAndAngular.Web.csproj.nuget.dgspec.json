@@ -1,0 +1,87 @@
+{
+  "format": 1,
+  "restore": {
+    "/mnt/d/flinkExercise/FirebaseAndAngularAndDotnetCore/FirebaseAndAngular.Web.csproj": {}
+  },
+  "projects": {
+    "/mnt/d/flinkExercise/FirebaseAndAngularAndDotnetCore/FirebaseAndAngular.Web.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/mnt/d/flinkExercise/FirebaseAndAngularAndDotnetCore/FirebaseAndAngular.Web.csproj",
+        "projectName": "FirebaseAndAngular.Web",
+        "projectPath": "/mnt/d/flinkExercise/FirebaseAndAngularAndDotnetCore/FirebaseAndAngular.Web.csproj",
+        "packagesPath": "/home/rock/.nuget/packages/",
+        "outputPath": "/mnt/d/flinkExercise/FirebaseAndAngularAndDotnetCore/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/rock/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "FirebaseAdmin": {
+              "target": "Package",
+              "version": "[1.9.1, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "Microsoft.AspNetCore.SpaServices": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "Microsoft.AspNetCore.SpaServices.Extensions": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "Microsoft.Extensions.Logging.Debug": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.201/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
